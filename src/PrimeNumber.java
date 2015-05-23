@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created by tianzhang on 5/14/15.
  */
@@ -19,5 +21,30 @@ public class PrimeNumber {
                 }
             }
         }
+        System.out.println();
+
+        //Better solution
+
+        //Initialize an array
+        boolean[] b = new boolean[101];
+        for(int i=2;i<101;i++){
+            b[i] = true;
+        }
+
+        for(int i=0;i<=10;i++){     //There is no need to traverse i>sqrt(n)
+            if (b[i]) {
+                //Delete i's multiples
+                for (int j = i*i; j < 101; j += i) {      //Multiples less than i*i have been checked before
+                    b[j] = false;
+                }
+            }
+        }
+
+        //Output
+        for (int i=0;i<101;i++){
+            if (b[i])   System.out.print(i+" ");
+        }
+
+
     }
 }

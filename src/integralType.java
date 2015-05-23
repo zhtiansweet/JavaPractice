@@ -27,11 +27,13 @@ public class integralType {
         short s = -130;
         int i = -10000;
         long l = 1234567890123456789l;
+        int i1 = (int)5.533f;
 
         print("b =", b);
         print("s =", s);
         print("i =", i);
         print("l =", l);
+        print("i1 =", i1);
         /*
         print("b&l =", b&l);
         print("i|l =", i|l);
