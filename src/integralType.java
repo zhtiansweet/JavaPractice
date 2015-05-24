@@ -1,7 +1,7 @@
 /**
  * Created by tianzhang on 5/13/15.
  */
-public class integralType {
+public class IntegralType {
     public static void main(String[] args) {
 /*
         int a1 = 5;

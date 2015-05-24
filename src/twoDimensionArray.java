@@ -4,7 +4,7 @@
 
 import java.util.Arrays;
 
-public class twoDimensionArray {
+public class TwoDimensionArray {
     public static void main(String[] args) {
         int[][] t1 = new int[4][];
         t1[0] = new int[]{1,2,3,4,5};

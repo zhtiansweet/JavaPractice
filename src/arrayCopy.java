@@ -4,7 +4,7 @@
 
 import java.util.Arrays;
 
-public class arrayCopy {
+public class ArrayCopy {
     public static void main(String[] args) {
         int[] src = new int[]{2, 3, 5, 1, 6};
         int[] dest1 = new int[10];

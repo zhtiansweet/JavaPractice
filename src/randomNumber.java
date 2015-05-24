@@ -3,7 +3,7 @@ import java.util.Random;
 /**
  * Created by tianzhang on 5/21/15.
  */
-public class randomNumber {
+public class RandomNumber {
     public static void main(String[] args) {
 
         int[] a = new int[7];
